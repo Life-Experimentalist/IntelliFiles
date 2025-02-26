@@ -8,7 +8,7 @@ function Header() {
   return (
     <header className="flex items-center justify-between">
       <Link href="/" className="flex items-center space-x-2">
-        <div className="bg-[#0160FE] w-fit">
+        <div className="bg-custom-black w-fit">
           <Image
             src="/assets/images/logo.webp"
             alt="logo"
@@ -17,7 +17,7 @@ function Header() {
             height={50}
           />
         </div>
-        <h1 className="font-bold text-xl">DropBox</h1>
+        <h1 className="font-bold text-xl">IntelliFiles</h1>
       </Link>
       <div className="px-5 flex space-x-2 items-center">
         <ThemeToggle />
